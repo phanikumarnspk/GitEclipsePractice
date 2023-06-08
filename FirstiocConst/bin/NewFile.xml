@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+                http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+  
+ 
+ <!-- <bean id="c1" class="com.slokams.College">
+ <property name="cid" value ="1"></property>
+ <property name="cname" value ="sr college of engineering"></property>
+ <property name="cloc" value ="hyd"></property>
+ </bean>
+ 
+ <bean id="c2" class="com.slokams.College">
+ <property name="cid" value="2"></property>
+ <property name="cname" value="kristu jyothi college of engineering"></property>
+ <property name="cloc" value="sec"></property>
+ </bean>
+ 
+ <bean id="c3" class="com.slokams.College">
+ <property name="cid" value="3"></property>
+ <property name="cname" value="talla padmavathi college of engineering"></property>
+ <property name="cloc" value="warangal"></property>
+ </bean>
+ <bean id="c4" class="com.slokams.College">
+ <property name="cid" value="4"></property>
+ <property name="cname" value="vagdevi college of engineering"></property>
+ <property name="cloc" value="Hyderabad"></property>
+ </bean>
+ 
+ 
+ <bean id="std" class="com.slokams.Student">
+ <property name="sid" value="1"></property>
+ <property name="sname" value="roja"></property>
+ <property name="sbranch">
+ 
+ <list>
+ 
+ <ref bean="st"/>
+ <ref bean="st1"/>
+ <ref bean="st2"/>
+ 
+ </list>
+ </property>
+ 
+ 
+ <property name="sdesg">
+ <set>
+ 
+ <ref bean="st"/>
+ <ref bean ="st1"/>
+ <ref bean="st2"/>
+ <ref bean="st3"/>
+ 
+ 
+ </set>
+ </property>
+ 
+ 
+ <property name="smarks">
+ <map>
+ <entry key-ref="st" value="80.0"></entry>
+ <entry key-ref="st1" value="97.0"></entry>
+ <entry key-ref="st2" value="10.0"></entry>
+ 
+ 
+ 
+ </map>
+ 
+ 
+ </property>
+ 
+ 
+ </bean>
+ 
+ 
+ 
+ 
+  -->
+ 
+<!--  <bean id="std"  class ="com.slokam.Student">
+<constructor-arg  value="1"></constructor-arg>
+<constructor-arg  value="roja"></constructor-arg>
+
+<constructor-arg>
+  <list>
+     <value >sri chaitanya</value>
+     <value>narayana</value>
+     <value>mallareddy</value>
+  </list>
+</constructor-arg>
+
+<constructor-arg>
+    <set>
+       <value > 80</value>
+       <value > 70</value>
+       <value > 65</value>
+       <value > 45</value>
+       <value > 69</value>
+       <value > 62</value>
+   </set>
+</constructor-arg>
+
+<constructor-arg>
+   <map>
+      <entry key = "te" value = "11"></entry>
+      <entry key = "hi" value = "22"></entry>
+      <entry key = "eng" value = "33"></entry>
+      <entry key = "mat" value = "44"></entry>
+      <entry key = "sci" value = "55"></entry>
+      <entry key = "soc" value = "66"></entry>
+   </map>
+</constructor-arg>
+
+</bean> 
+
+
+<bean id="stdnt1"  class="com.slokam.Student">
+<constructor-arg value="1"></constructor-arg>
+<constructor-arg value="roja"></constructor-arg>
+<constructor-arg>
+ <set>
+ 
+ 
+ <value>70.0 </value>
+ <value>80.0 </value>
+ <value>90.0 </value>
+ 
+ 
+ 
+ </set>
+
+</constructor-arg>
+
+</bean>
+
+<bean id="stdnt2"  class="com.slokam.Student">
+<constructor-arg value="1"></constructor-arg>
+<constructor-arg value="roja"></constructor-arg>
+<constructor-arg>
+
+<map>
+
+<entry key="sri chaitanya " value="70.0"></entry>
+<entry key="narayana " value="70.0"></entry>
+<entry key=" mallareddy" value="70.0"></entry>
+
+</map>
+
+</constructor-arg>
+
+
+</bean>
+-->
+
+
+
+
+
+
+
+ <bean id="std1"  class ="com.cisco.Student">
+<constructor-arg  value="1"></constructor-arg>
+</bean> 
+
+ <bean id="std2"  class ="com.cisco.Student">
+<constructor-arg  value="1"></constructor-arg>
+<constructor-arg  value="roja"></constructor-arg>
+</bean>
+
+<bean id="std3"  class ="com.cisco.Student">
+<constructor-arg  value="2"></constructor-arg>
+<constructor-arg  value="roja"></constructor-arg>
+<constructor-arg  value="24"></constructor-arg>
+</bean>
+ 
+
+
+
+</beans>
