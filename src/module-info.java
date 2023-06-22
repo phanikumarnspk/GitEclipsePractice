@@ -7,3 +7,4 @@
  */
 module GITECLIPSEPRACTICE {
 }
+jenkins test
